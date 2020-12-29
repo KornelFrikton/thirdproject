@@ -1,0 +1,28 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "---\r **Feladat**\r Weboldal létrehozása, ahol API segítségével kapcsolatba lépsz egy szerverrel és adatokat jelenítesz meg róla az oldaladon.\r Az API kérésben legyen legalább egy változtatható paraméter, amelyet egy űrlapból kérsz\r be.\r ---\r **Megvalósítás**\r API: version 3 of The Movie Database (TMDb) API get/discover/movie \r [API leírás](https://developers.themoviedb.org/3/discover/movie-discover)",
+  "main": "index.js",
+  "homepage": "https://KornelFrikton.github.io/thirdproject",
+  "scripts": {
+    "build": "webpack" ,
+    "predeploy" : "npm run build" ,
+    "deploy" : "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

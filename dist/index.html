@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmajánló oldal</title>
+</head>
+<body>
+    <header>
+        <h1>Néznél egy filmet?</h1>
+    </header>
+
+    <form action="">
+        <section>
+            <label class="votelist"> Válassz minőséget: 
+                <select class="custom-select mx-auto my-3" name="vote_average">                                                       
+                    <option value="9.9" selected>Csillagos ötös /8 - 10 pont/</option>
+                    <option value="7.9">Futottak még /6 - 8 pont/</option>
+                    <option value="5.9">Egyszernézős /4 - 6 pont/</option>
+                    <option value="3.9">Háttérzaj /2 - 4 pont/</option>
+                    <option value="1.9">Zs-kategória /0 - 2 pont/</option>
+                </select>
+            </label>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend class="votelist container-fluid">Válassz műfajt: </legend>
+                <div class="form-row m-0 row-cols-2 row-cols-sm-4 row-cols-md-6">
+                
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Action" id="Action" value="28">
+                        <label class="custom-control-label" for="Action">Akció</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Animation" id="Animation" value="16">
+                        <label class="custom-control-label" for="Animation">Animáció</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Family" id="Family" value="10751">
+                        <label class="custom-control-label" for="Family">Családi</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Document" id="Document" value="99">
+                        <label class="custom-control-label" for="Document">Dokumentum</label>
+                    </div>      
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Drama" id="Drama" value="18">
+                        <label class="custom-control-label" for="Drama">Dráma</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Fantasy" id="Fantasy" value="14">
+                        <label class="custom-control-label" for="Fantasy">Fantázia</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="War" id="War" value="10752">
+                        <label class="custom-control-label" for="War">Háborús</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Horror" id="Horror" value="27">
+                        <label class="custom-control-label" for="Horror">Horror</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Adventure" id="Adventure" value="12">
+                        <label class="custom-control-label" for="Adventure">Kaland</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Crime" id="Crime" value="80">
+                        <label class="custom-control-label" for="Crime">Krimi</label>
+                    </div>
+            
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Mystery" id="Mystery" value="9648">
+                        <label class="custom-control-label" for="Mystery">Misztikus</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Romantic" id="Romantic" value="10749">
+                        <label class="custom-control-label" for="Romantic">Romantikus</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="ScienceFiction" id="ScienceFiction" value="878">
+                        <label class="custom-control-label" for="ScienceFiction">Sci-fi</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Thriller" id="Thriller" value="53">
+                        <label class="custom-control-label" for="Thriller">Thriller</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="History" id="History" value="36">
+                        <label class="custom-control-label" for="History">Történelmi</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="TVMovie" id="TVMovie" value="10770">
+                        <label class="custom-control-label" for="TVMovie">TV-film</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Western" id="Western" value="37">
+                        <label class="custom-control-label" for="Western">Vadnyugat</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Comedy" id="Comedy" value="35">
+                        <label class="custom-control-label" for="Comedy">Vígjáték</label>
+                    </div>
+
+                    <div class="custom-control custom-checkbox px-5 py-3 col">
+                        <input type="checkbox" class="custom-control-input" name="Music" id="Music" value="10402">
+                        <label class="custom-control-label" for="Music">Zenés</label>
+                    </div>
+
+                    <div class="col px-3 py-3">
+                        <input class="btn btn-dark px-5" type="reset" value="Törlés"/>
+                    </div>
+
+                </div>
+            </fieldset>
+        </section>
+
+        <div class="submit py-5">
+            <input class="btn btn-dark btn-lg" type="submit" value="Mutasd a filmeket"/>
+        </div>
+     
+    </form>
+    
+    <section class="js-movies">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner"> 
+            </div>
+        </div>
+    </section>
+
+    <section class="noresult"></section>
+
+    <script src="./bundle.js"></script>
+
+    <footer>Frikton Kornél &copy; Copyright 2020</footer> 
+</body>
+</html>
